@@ -80,7 +80,9 @@ export const App = () => {
         {isShowModal && (<ModalWindow modalIsOpen={isShowModal} src={largeImageURL} closeModal={closeModal} />)}
 
         <Toaster />
+
       </>
-    ); 
+    );
+  
 }
  
